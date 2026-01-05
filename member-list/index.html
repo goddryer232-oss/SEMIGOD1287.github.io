@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DERECK.MEMBERLIST</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="bg-layer" id="bg"></div>
+
+    <div class="page">
+      <h1 class="title">DERECK</h1>
+      <h2 class="title2">MEMBERLIST</h2>
+
+      <input
+        type="text"
+        id="search"
+        class="search"
+        placeholder="Search by name..."
+        onkeyup="filterMembers()"
+      />
+
+      <!-- ✅ list ครอบ card ทุกใบ -->
+      <div class="list" id="memberList">
+        <!-- หน้า 1 -->
+        <div class="card bone" style="--i: 0">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Taro Winterfell</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/narichai.srijan" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/narichai.srijan')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 1">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Park Winterfell</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/parkwinterfell" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/parkwinterfell')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 2">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Degan Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/degan.dokkadon" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/degan.dokkadon')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 3">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Theboss Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/theboss.dereck" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/theboss.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 4">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Alex Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/alex.dereck.350822" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/alex.dereck.350822')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 5">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Joey Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/joeynxughtygurl" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/joeynxughtygurl')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 6">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Snow Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/snow.horifly" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/snow.horifly')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 7">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Relx Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/relx.dereck" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/relx.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 8">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Kikkok Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/kikkok.prime" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/kikkok.prime')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 9">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Mimew Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/mimew.dereck" class="btn"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/mimew.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <!-- หน้า 2 -->
+        <div class="card" style="--i: 10">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Akira Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/akira.dereck.2025" class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/akira.dereck.2025')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 11">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Alice Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/alicehalifex.a" class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/alicehalifex.a')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 12">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Amm Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/nongam.dkd.i" class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/nongam.dkd.i')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 13">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Angryy Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/DekAngry" class="btn">Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/DekAngry')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 14">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Araya Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/jxyflexwtf" class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/jxyflexwtf')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 15">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Archer Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100088927029391"
+              class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100088927029391q')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 16">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Ardel Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/delrealcons" class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/delrealcons')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 17">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Arlan Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/arlan.rich" class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/arlan.rich')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 18">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Aro Dereck</span>
+          </div>
+          <div class="right">
+            <a href="https://www.facebook.com/DekAngry" class="btn">Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/DekAngry')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 19">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Arthur Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100088007465983"
+              class="btn"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100088007465983')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 20">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Autoo Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/autoo.dereck"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/autoo.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 21">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Baitoey Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100075153473764"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100075153473764')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 22">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Barron Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/barron.dereck.2024"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/barron.dereck.2024')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 23">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Beck Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/txro.vongolay"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/txro.vongolay')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 24">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Beck Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100080510647532"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100080510647532')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 25">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Best Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/best.wxyne"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/best.wxyne')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 26">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Billy Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090428602338"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100090428602338')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 27">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Blaxk Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/blaxk.changretta"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/blaxk.changretta')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 28">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Blueeye Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/blueeye.lindlon"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/blueeye.lindlon')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 29">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Boom Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/somchai.royce"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/somchai.royce')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 30">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Boss Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/boss.dereck.2024"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/boss.dereck.2024')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 31">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Bottlee Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/bottlee.li.dereck"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/bottlee.li.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 32">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>BoyBelone Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100074967551498"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100074967551498')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 33">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Brooklyn Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/BrooklynVincere"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/BrooklynVincere')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 34">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Bunplook Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/bunplook.halloffame"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/bunplook.halloffame')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 35">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Bxst Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/taka.wellesley"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/taka.wellesley')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 36">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Carter Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/carter.yxurmomisthebest"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/carter.yxurmomisthebest')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 37">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Chucky Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/Chucky.T24"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/Chucky.T24')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 38">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Cl Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100089640498231"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100089640498231')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 39">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Cxnner Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/cxnner.iwannabe"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            ><button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/cxnner.iwannabe')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 40">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Dahigh Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/couldsecret"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/couldsecret')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 41">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Dang Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/dang.dereck"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/dang.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 42">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Darwin Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/darwin.dereck.2025"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/darwin.dereck.2025')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 43">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Dash Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100072603373282"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100072603373282')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 44">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Delta Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/delta.dereck"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/delta.dereck')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 45">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Dept Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/deppy.threethousand"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/deppy.threethousand')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 46">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Devill Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/devill.benten"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/devill.benten')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 47">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Devita Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090295443948"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100090295443948')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="--i: 48">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>Dexta Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100082079030256"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100082079030256')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+        <div class="card" style="--i: 49">
+          <div class="left">
+            <div class="avatar"></div>
+            <span>DoNut Dereck</span>
+          </div>
+          <div class="right">
+            <a
+              href="https://www.facebook.com/profile.php?id=100075366396059"
+              class="btn"
+              target="_blank"
+              >Facebook</a
+            >
+            <button
+              class="btn"
+              onclick="copyText('https://www.facebook.com/profile.php?id=100075366396059')"
+            >
+              Copy
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="--i: 50">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Dollar Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/dollar.kodomo"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/dollar.kodomo')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 51">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Draft Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/draft.dereck"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/draft.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 52">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Drew Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/drew.ybz"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/drew.ybz')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 52">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Edward Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/edward.dereck.2024"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/edward.dereck.2024')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 53">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Esther Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/esther.gologosobxy"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/esther.gologosobxy')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 54">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Fakex Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/sleepwithtatafreeog"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/sleepwithtatafreeog')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 55">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Firstx Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/firstx.lucid"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/firstx.lucid')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 56">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Firstz Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100083948948946"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100083948948946')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 57">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Flurry Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/baifern.DKD"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/baifern.DKD')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 58">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Foithong Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/foithong.dereck"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/foithong.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 59">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Gaolud Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/gaolud.wellesley"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/gaolud.wellesley')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 60">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Gazper Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/DekGazper"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/DekGazper')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 61">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Haruna Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/yangney.charning"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/yangney.charning')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 62">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Haward Dereck [RIP]</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100076686542423"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100076686542423')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 63">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Heather Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/heather.godforyou"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/heather.godforyou')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 64">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Highlistx Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/godlys.wisdomstyle"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/godlys.wisdomstyle')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 65">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Hoper Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/hoper.dereck"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/hoper.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 66">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Howard Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/howard.x.dereck"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/howard.x.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 67">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Hwang Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/hwang.d.dereck"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/hwang.d.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 68">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Iced Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/bluey.wilisch"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/bluey.wilisch')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 69">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Insertq Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/insertq.rich"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/insertq.rich')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 70">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jack Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/jack.dereck.2025"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jack.dereck.2025')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 71">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jack Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100074484283877"
+            class="btn"
+            target="_blank"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100074484283877')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <div class="card" style="--i: 72">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jackky Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jackky.lan.nister" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jackky.lan.nister')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 73">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jake Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jake.colinfirth" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jake.colinfirth')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 74">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jaoday Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jake.colinfirth" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jake.colinfirth')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 75">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jaolove Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/love.pajingo" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/love.pajingo')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 76">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>JaoNay Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/benz.saturn" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/benz.saturn')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 77">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jasmine Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jasmine.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jasmine.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 78">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jay Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jay.happymeal" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jay.happymeal')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 79">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jaymin Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/Something.Kodomo" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/Something.Kodomo')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 80">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jaythan Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jaythan.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jaythan.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 81">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jaywin Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jaywin.meraxes" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jaywin.meraxes')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 82">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jayx Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jayx.jakkaphong" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jayx.jakkaphong')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 83">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jayz Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/bluejayholyfunk" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/bluejayholyfunk')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 84">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jayz Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jayz.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jayz.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 85">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jint Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jint.diffstyle" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jint.diffstyle')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 86">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>JRexl Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/vesx.ninefivesixthree" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/vesx.ninefivesixthree')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <div class="card" style="--i: 87">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Junior Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/junior.dereck.2025" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/junior.dereck.2025')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 88">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Justin Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/justin.quieroxic" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/justin.quieroxic')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 89">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jxstflex Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/lyricsvmirror" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/lyricsvmirror')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 90">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jxyden Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100083181450637"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100083181450637')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 91">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Jxylen Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/jxylen.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/jxylen.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 92">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Kai Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/willy.dereck.2025" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/willy.dereck.2025')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 93">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Kea Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/kea.rich.765360" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/kea.rich.765360')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 94">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Keji Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/keji.barathon" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/keji.barathon')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 95">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Killme Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/killmedereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/killmedereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 96">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Kirin Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100043497369212"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100043497369212')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 97">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Kla Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/kla.dereck" class="btn">Facebook</a>
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/kla.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 98">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Ktwo Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100087281427275"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100087281427275')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 99">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Lamelo Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/lamelo.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/lamelo.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 100">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Loserx Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/loserx.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/loserx.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 101">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Lucas Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/lucas.quinxen" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/lucas.quinxen')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 102">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Lukpexch Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/lxkpeach223" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/lxkpeach223')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 103">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Lxcus Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/lxcus.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/lxcus.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 104">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Mawin Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/mawin.winnerie" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/mawin.winnerie')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <div class="card" style="--i: 105">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Mawin Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/Mawindereckk" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/Mawindereckk')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 106">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Max Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/max.sixtime" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/max.sixtime')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 107">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Meannie Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/meannie.penta" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/meannie.penta')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 108">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Mew Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/mew.underseventeen" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/mew.underseventeen')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 109">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Min Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/min.dereck.944530" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/min.dereck.944530')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 110">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Ming Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/ming.happymeal" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/ming.happymeal')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 111">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Minus Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/minus.streng" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/minus.streng')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 112">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>MJ Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100087140117019"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100087140117019')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 113">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>MoChi Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100088977851073"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100088977851073')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 114">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Molfoil Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/molfoil.bettokpla" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/molfoil.bettokpla')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 115">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Momo Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=100077369212240"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=100077369212240')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 116">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Morasum Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/morasom.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/morasom.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 117">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Mxrko Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/mxrkostarkreal.223" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/mxrkostarkreal.223')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 118">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Nacos Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/nacos.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/nacos.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 119">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Nerx Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/nerx.dereck.2024" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/nerx.dereck.2024')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 120">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Nerxs Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/shetpa.lharoyyhim" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/shetpa.lharoyyhim')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 121">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Ness Dereck</span>
+        </div>
+        <div class="right">
+          <a
+            href="https://www.facebook.com/profile.php?id=61555385038452"
+            class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/profile.php?id=61555385038452')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 122">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Newyear Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/newyear.euphoria" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/newyear.euphoria')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 123">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Nicez Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/nicez.diff" class="btn">Facebook</a>
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/nicez.diff')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 124">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Noah Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/noxhhhhh" class="btn">Facebook</a>
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/noxhhhhh')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 125">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Nocts Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/nocts.lee" class="btn">Facebook</a>
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/nocts.lee')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="card" style="--i: 126">
+        <div class="left">
+          <div class="avatar"></div>
+          <span>Nongkhiam Dereck</span>
+        </div>
+        <div class="right">
+          <a href="https://www.facebook.com/khiam.dereck" class="btn"
+            >Facebook</a
+          >
+          <button
+            class="btn"
+            onclick="copyText('https://www.facebook.com/khiam.dereck')"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+
+      <!-- คัดลอกรายชื่อและลิงก์แบบนี้ไปเพิ่มตามต้องการ -->
+
+      <!-- /list -->
+
+      <div class="pagination">
+        <button class="page-btn" onclick="prevPage()">ก่อนหน้า</button>
+        <span id="pageInfo" style="padding: 6px 10px; font-size: 12px"></span>
+        <button class="page-btn" onclick="nextPage()">ถัดไป</button>
+      </div>
+
+      <div class="footer">
+        <span>© 2026 Designed & Developed by Dereck</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
